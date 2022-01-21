@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fire_6_Looping
+  m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHABLEND_ON _COLOROVERLAY_ON _EMISSION _FADING_ON _REQUIRE_UV2
+    _USEDEPTH_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - ALWAYS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - DisplacementPack_1:
+        m_Texture: {fileID: 2800000, guid: 58de83be232656345a3eaa1aaf271131, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 5deb5ad2106e88b43b4b54625600d4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5deb5ad2106e88b43b4b54625600d4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionVector:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SourceNewTex_1:
+        m_Texture: {fileID: 2800000, guid: f16617f9fc0763e44bdfecc830c609f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: f16617f9fc0763e44bdfecc830c609f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: f16617f9fc0763e44bdfecc830c609f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - DistortionUV_DistanceX_1: 0.762
+    - DistortionUV_DistanceY_1: 0.723
+    - DistortionUV_Speed_1: 0.89
+    - DistortionUV_WaveX_1: 89.4
+    - DistortionUV_WaveY_1: 91.2
+    - SpriteSheetAnimationUV_Frame_1: 8
+    - SpriteSheetAnimationUV_Size_1: 8
+    - _AlphaIntensity_Fade_1: 1
+    - _BlendOp: 0
+    - _BranchPhase: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 0
+    - _CameraNearFadeDistance: 0
+    - _ColorMask: 15
+    - _ColorMode: 3
+    - _Cull: 0
+    - _Cutoff: 1
+    - _Depthpower: 10
+    - _DisplacementPack_Size_1: 1.3
+    - _DisplacementPack_ValueX_1: 0.432
+    - _DisplacementPack_ValueY_1: 0.432
+    - _DistortionBlend: 1
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 30
+    - _DistortionStrengthScaled: 3
+    - _DstBlend: 10
+    - _EdgeFlutter: 1
+    - _EdgeWidth: 0.1
+    - _EmissionEnabled: 1
+    - _FinalEmission: 3
+    - _FlipbookMode: 1
+    - _Glossiness: 0.5
+    - _InvFade: 0.01
+    - _LightingEnabled: 0
+    - _Metallic: 0
+    - _Mode: 2
+    - _MotionAmount: 0.0125
+    - _Opacity: 1
+    - _PWR: 0.5
+    - _PrimaryFactor: 0
+    - _Rim: 0
+    - _STR: 0.5
+    - _SecondaryFactor: 0
+    - _Simple_Displacement_Rotative_Rotation_1: 0
+    - _Simple_Displacement_Rotative_Value_1: 0
+    - _SoftParticlesEnabled: 1
+    - _SoftParticlesFarFadeDistance: 5
+    - _SoftParticlesNearFadeDistance: 0
+    - _SoftRim: 1
+    - _SpriteFade: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TessValue: 15
+    - _Usedepth: 1
+    - _ZWrite: 0
+    - __dirty: 0
+    m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.078431375, g: 0.078431375, b: 0.09019608, a: 1}
+    - _Color1: {r: 1, g: 0.6396222, b: 0, a: 1}
+    - _Color2: {r: 1, g: 0, b: 0.011572838, a: 1}
+    - _ColorAddSubDiff: {r: -1, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 4.237095, g: 4.237095, b: 4.237095, a: 1}
+    - _GlowColor: {r: 0, g: 0.57000494, b: 1, a: 1}
+    - _NoisespeedXYNoisepowerZGlowpowerW: {r: 0.314, g: 0.427, b: 0.001, a: 4}
+    - _SoftParticleFadeParams: {r: 0, g: 0.2, b: 0, a: 0}
+    - _TilingXY: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceColor: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInstanceScale: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeOffset: {r: 0, g: 5, b: 0, a: 0}
