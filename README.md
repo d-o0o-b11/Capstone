@@ -26,4 +26,4 @@
 
 ##
 <img src="https://user-images.githubusercontent.com/97296843/150719293-bbe105a9-a670-4589-9d53-84e04f1c9f15.png" width="300" height="200">
-- 소화기 이용하여 불 제어
+- 소화기 미션 성공 후 소화기 이용하여 불 제어
